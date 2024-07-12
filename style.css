@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    padding: 0;
+  }
+ .screen-initial{
+
+    height: 100vh;
+    /* padding:90px 10px 0px 10px; */
+ }
+
+
+input{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 24px;
+    height: 36px;
+    width: auto;
+    margin-top: 20px;
+    /* font-family: DM Sans; */
+    /* font-size: 6px; */
+    
+ } 
+ input::placeholder{
+   padding:15px 15px;
+   font-size: 12px;
+ }
+ 
+.socials
+{
+    width:9rem;
+    /* position:-webkit-sticky; */
+    position: sticky;
+    top: 95px;
+    width: 7vw;
+    margin-top: 82px;
+    /* background-position: 10px 7px; */
+    
+}
+
+.chatbot{
+    width: 7rem;
+    position:fixed;
+    bottom: 0;
+    padding:0px 0px 0px 1100px;
+    /* background-color: blue; */
+
+
+}
+
+
+ .nav-bar{
+    display: flex;
+    position: sticky;
+    top:0;
+    background-color: #6F6AF7;
+    font-family: DM Sans;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 47.43px;
+    text-align: left;
+    color:white;
+    /* margin-top:14px; */
+
+;
+    
+ }
+ .nav-bar>div{
+    flex-grow: 1;
+    margin-top:14px;
+    text-align: center;
+ }
+
+h1{
+   font-family: Delius Unicase;
+  font-size: 1.8rem;
+  font-weight: 1000;
+  line-height: 78.81px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 14px;
+
+}
+ .area-one{
+    display:flex;
+     img{
+        height:20em;
+        max-width:auto;
+        margin-left: 35px;
+        margin-top: 30px;
+        
+        
+    } 
+    
+ }
+
+ .area-two{
+    display:flex;
+    justify-content: space-evenly;
+ }
+
+ .area-two>div{
+   font-family: DM Sans;
+   /* border: 1px solid  #929DFF;
+   background-color:#929DFF; */
+   padding: 10px;
+   margin-top:60px;
+   border-radius:11px;
+    width:10em;
+   height:auto;
+   line-height: 28px;
+   color: white;
+   box-shadow: 0px 9px 31px #000000;
+   font-weight:500;
+   font-size: 0.94rem;
+
+   
+
+
+ }
+ .card-one{
+   background: #929DFF;
+
+ }
+ .card-two{
+   background: #734CF2;
+
+ }
+.card-three{
+   background: #D288FF;
+
+
+}
+
+.card-four{
+
+   background: #000000;
+
+}
+ .area-three-left{
+
+    display:flex;
+    
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+    
+
+    
+ }
+ .area-three-left>div{
+   /* border:1px solid black; */
+   margin:0px 0px 10px 30px;
+   font-family: DM Sans;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 28px;
+        border-radius: 12px;
+
+ }
+ .area-three{
+   display: flex;
+   background-color: #483EFF;
+   width: 85vw;
+   margin-left:20px;
+   text-align: center;
+   border-radius: 21px;
+   margin-bottom: 30px;
+   /* translate: -50% -50%; */
+
+
+ }
+ #ta-two{
+
+         margin-top: 25px; 
+         margin-bottom: 25px;
+         width: 55vw;
+         margin-left: 66px;
+         border-radius: 6px;
+         height: 300px; 
+         resize:none;
+        font-family: DM Sans;
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 28px;
+        border-radius: 12px;
+        color:#143565;
+        background-color: white;
+        
+
+
+ }
+ 
+#ta-one
+{
+        width: 55vw;
+        margin-left: 66px;
+        margin-top: 30px;
+        background-color: rgb(229, 216, 255);
+        border-radius: 6px;
+        padding-left: 15px;
+        padding-top: 15px;
+        height: 300px; 
+        border:1px solid rgb(229, 216, 255);
+        resize:none;
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 1em;
+
+}
+ 
+
+.six input{
+    border:0px;
+}
+#search{
+    margin-top: 13px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 24px;
+    height: 36px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.eight>img{
+
+   height: 1.6rem;
+   margin-top: 14px;
+   padding-left: 24px;
+   margin-right: 46px;
+}
+.first{
+   padding: 10px;
+    /* border: 1px solid white; */
+    background-color: #BCE0F6;
+    color: black;
+    width: 15vw;
+}
+
+.second{
+   padding: 10px;
+    border: 3px solid white;
+    /* background-color: #BCE0F6; */
+    color: white;
+    width: 15vw;
+}
+
+.third{
+   padding: 10px;
+    border: 3px solid white;
+    /* background-color: #BCE0F6; */
+    color: white;
+    width: 15vw;
+}
+
+.textarea-two>button{
+
+
+   background-color:black;
+   color: white;
+   font-family: DM sans;
+   font-weight: 500;
+   padding: 10px;
+   border-radius: 10px;
+   width:100px;
+   position: relative;
+   /* left: 10px; */
+    
+    /* top:0px; 
+   right:0px; */
+   left:290px;
+   bottom: 80px;
+   /* bottom: 1000px; */ 
+   /* top:100px; */
+   
+}
